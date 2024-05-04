@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <title>Угадайте компьютерные аксессуары</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-<div class="quiz-box" id="quiz">
-    <h1>Угадайте компьютерные аксессуары</h1>
-    <p>Введите букву:</p>
-    <input type="text" id="letterInput">
-    <button onclick="checkLetter()">Проверить</button>
-    <button id="restartButton">Начать заново</button>
-    <div id="wordToGuess"></div>
-    <p id="message"></p>
-</div>
+	<head>
+		<title>Угадайте компьютерные аксессуары</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div class="quiz-box" id="quiz">
+			<h1>Угадайте компьютерные аксессуары</h1>
+			<p>Введите букву:</p>
+			<input type="text" id="letterInput" maxlength="1">
+			<button onclick="checkLetter()">Проверить</button>
+			<button id="restartButton">Начать заново</button>
+			<div id="wordToGuess"></div>
+			<p id="message"></p>
+		</div>
 
-    <script src="script.js"></script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>
