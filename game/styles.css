@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+/* Медиазапрос, который меняет размер элемента на мобильных устройствах */
+@media only screen and (max-width: 600px) {
+    .quiz-box {
+        width: 100px;
+        height: 100px;
+    }
+}
 body{
     font-family: 'Roboto', sans-serif;
     display: flex;
