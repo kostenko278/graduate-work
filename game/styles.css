@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 /* Медиазапрос, который меняет размер элемента на мобильных устройствах */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .quiz-box {
         width: 100px;
         height: 70px;
