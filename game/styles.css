@@ -4,8 +4,8 @@
 /* Медиазапрос, который меняет размер элемента на мобильных устройствах */
 @media only screen and (max-width: 700px) {
     .quiz-box {
-        width: 100px;
-        height: 70px;
+        width: 300px;
+        height: 180px;
     }
 }
 body{
