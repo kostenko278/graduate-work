@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
         "border-right": containerWidth / 2 + 'px outset transparent'
     });
     $(window).resize(function () {
-        containerWidth = $('.container').width();
+        containerWidth = $(window).width();//было containerWidth = $('.container').width();
         $(".triangle").css({
             "border-left": containerWidth / 2 + 'px outset transparent',
             "border-right": containerWidth / 2 + 'px outset transparent'
